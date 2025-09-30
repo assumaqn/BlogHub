@@ -13,6 +13,21 @@ import { useEffect, useState } from "react";
 import blogpost from "../src/data/blogPosts.json";
 
 function App() {
+  const [post, setPost] = useState(blogpost);
+  const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    if (search.trim().length > 0) {
+      setPost(
+        blogpost.filter((p) =>
+          p.description.toLowerCase().includes(search.toLowerCase())
+        )
+      );
+    } else {
+      setPost(blogpost);
+    }
+  }, [search]);
+
   return (
     <BrowserRouter>
       <Routes>
