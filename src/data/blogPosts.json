@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Getting Started with React Router",
+    "description": "Learn the fundamentals of React Router and how to implement dynamic routing in your applications.",
+    "content": "React Router is a powerful library that enables dynamic routing in React applications. It allows you to build single-page applications with navigation that feels like a multi-page app.React Router makes it easy to build complex, multi-page experiences in your React applications while maintaining the benefits of a single-page application.",
+    "date": "2024-01-15",
+    "category": "Tutorial",
+    "author": "John Doe",
+    "readTime": "5 min read"
+  },
+  {
+    "id": "2",
+    "title": "Building Responsive Layouts with Tailwind CSS",
+    "description": "Master the art of creating beautiful, responsive designs using Tailwind's utility-first approach.",
+    "content": "Tailwind CSS has revolutionized the way we style web applications. Its utility-first approach provides unprecedented flexibility and speed in building responsive layouts.\n\nTailwind CSS empowers developers to build modern, responsive interfaces with incredible efficiency.",
+    "date": "2024-01-20",
+    "category": "Design",
+    "author": "Jane Smith",
+    "readTime": "4 min read"
+  },
+  {
+    "id": "3",
+    "title": "State Management in Modern React",
+    "description": "Explore different state management solutions and patterns for React applications in 2024.",
+    "content": "State management remains one of the most important aspects of building React applications. Let's explore modern approaches to handling state effectively.\n\n\nChoose the right tool for your specific needs and keep your state management simple and maintainable.",
+    "date": "2024-02-01",
+    "category": "Development",
+    "author": "Mike Johnson",
+    "readTime": "6 min read"
+  },
+  {
+    "id": "4",
+    "title": "Creating Beautiful Forms with React Hook Form",
+    "description": "Build performant forms with validation using React Hook Form and Zod.",
+    "content": "React Hook Form has become the go-to solution for building forms in React. Combined with Zod for schema validation, it provides a powerful and developer-friendly experience.\n\nReact Hook Form simplifies form handling while maintaining excellent performance and developer experience.",
+    "date": "2024-02-10",
+    "category": "Tutorial",
+    "author": "Sarah Wilson",
+    "readTime": "5 min read"
+  },
+  {
+    "id": "5",
+    "title": "Optimizing React Performance",
+    "description": "Learn essential techniques to make your React applications faster and more efficient.",
+    "content": "Performance optimization is crucial for delivering great user experiences. Here are key strategies for optimizing React applications.\n\nUse React DevTools Profiler to identify bottlenecks and optimize accordingly.\n\nSmall optimizations compound to create significantly faster applications.",
+    "date": "2024-02-15",
+    "category": "Performance",
+    "author": "Alex Chen",
+    "readTime": "7 min read"
+  },
+  {
+    "id": "6",
+    "title": "TypeScript Best Practices for React",
+    "description": "Write type-safe React applications with these TypeScript patterns and practices.",
+    "content": "TypeScript brings type safety to React development, catching errors at compile time and improving developer experience through better IntelliSense.\n\nTypeScript makes your React code more maintainable and reduces runtime errors significantly.",
+    "date": "2024-02-20",
+    "category": "TypeScript",
+    "author": "Emma Davis",
+    "readTime": "6 min read"
+  }
+]
