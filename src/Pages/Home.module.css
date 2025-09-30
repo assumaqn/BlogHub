@@ -1,0 +1,33 @@
+.header {
+  background-color: rgb(225, 240, 241);
+}
+
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.hero h1 {
+  padding-top: 2.5rem;
+  font-size: 3.4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 2.2px;
+  font-weight: 900;
+}
+.hero :global(span) {
+  color: rgb(76, 88, 178);
+}
+.hero p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #777;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}

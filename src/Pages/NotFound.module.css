@@ -1,0 +1,9 @@
+.notfound {
+  display: flex;
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+  color: #5555;
+  font-size: 25px;
+  font-weight: 700;
+}

@@ -1,0 +1,62 @@
+.contactSection {
+  background-color: #ffffff;
+}
+
+.contact {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 16px;
+}
+.contact h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #037dda;
+}
+.contact p {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 19px;
+  line-height: 1.5;
+  letter-spacing: 0.25px;
+  color: #444444e0;
+  margin-bottom: 30px;
+}
+.otherWay {
+  /* max-width: 800px;
+  margin: 0 auto; */
+
+  border-top: 1px solid #333;
+  margin-top: 96px;
+  padding: 36px 16px;
+}
+.otherWay h3 {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 0.65px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+.contactMethods {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  margin-top: 20px;
+}
+
+.method {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+  color: #444;
+}
+.method p {
+  font-size: 16px;
+}

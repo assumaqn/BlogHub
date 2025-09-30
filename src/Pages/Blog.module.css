@@ -1,0 +1,20 @@
+.blogContainer {
+  max-width: 1250px;
+  margin: 25px auto;
+  padding-top: 40px;
+  text-align: center;
+}
+.blogContainer h2 {
+  font-size: 3.2rem;
+  font-family: 900;
+  margin-bottom: 20px;
+  color: #037dda;
+}
+.blogContainer p {
+  font-size: 20px;
+  color: #555;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
