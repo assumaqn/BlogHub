@@ -1,0 +1,30 @@
+.miniNav {
+  display: flex;
+
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.miniNav input {
+  width: 250px;
+  margin-bottom: 0;
+}
+.miniNav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.miniNav ul a {
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #555;
+  background-color: #f3f1f1b2;
+  padding: 10px 14px;
+  border-radius: 9px;
+}
+.miniNav ul a:global(.active) {
+  background-color: #3b82f6;
+  color: #ffff;
+}

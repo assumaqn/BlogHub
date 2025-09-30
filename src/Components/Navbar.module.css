@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  background-color: #ffff;
+
+  border-bottom: 0.5px solid #ccc;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  font-size: 15px;
+}
+.nav ul a {
+  display: inline-block;
+  text-decoration: none;
+  color: #222222a8;
+  padding: 5px 10px;
+
+  border-radius: 9px;
+}
+.nav li {
+  display: flex;
+  gap: 1.2px;
+  align-items: center;
+}
+
+.nav ul a:global(.active) {
+  background-color: #3b82f6;
+  transition: all 0.5s;
+  color: #ffff;
+}
+.nav ul a:hover {
+  background-color: #3b82f6;
+  transition: all 0.5s;
+  color: #ffff;
+}
