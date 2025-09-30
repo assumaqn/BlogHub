@@ -28,3 +28,17 @@
   background-color: #3b82f6;
   color: #ffff;
 }
+@media (max-width: 600px) {
+  .miniNav {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .miniNav ul {
+    font-size: 10px;
+    gap: 5px;
+  }
+  .miniNav input {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}

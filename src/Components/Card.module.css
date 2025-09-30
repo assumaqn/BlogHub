@@ -61,3 +61,19 @@
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 600px) {
+  .card {
+    padding: 15px 20px;
+  }
+  .card h3 {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 0.9rem;
+  }
+  .author {
+    font-size: 0.8rem;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+}

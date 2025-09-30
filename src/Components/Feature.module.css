@@ -48,3 +48,9 @@
   color: #666;
   line-height: 1.6;
 }
+@media (max-width: 768px) {
+  .featureGrid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
